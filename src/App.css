@@ -1,0 +1,261 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: linear-gradient(to right, #c8f7c5, #a8e6a3);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+  color: #085f08;
+}
+
+.nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: #065d06;
+}
+
+.nav a:hover {
+  color: #033b03;
+  text-decoration: underline;
+}
+.home {
+  padding: 40px 20px;
+  text-align: center;
+  background-image: url("C:\Users\india\Desktop\app\nature-cure\public\images\nature.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+
+  height: 70vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-shadow: 2px 2px 5px #000;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 20px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  text-shadow: 2px 2px 5px #000;
+}
+
+.hero-btn {
+  padding: 12px 25px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #4caf50;
+  color: white;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.hero-btn:hover {
+  background: #3f8c41;
+}
+/* FOODS PAGE */
+.foods-section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.foods-title {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #065d06;
+}
+
+.foods-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.food-card {
+  width: 250px;
+  background: #e7ffe6;
+  border-radius: 12px;
+  padding: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.food-card:hover {
+  transform: scale(1.05);
+}
+
+.food-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.food-details {
+  margin-top: 30px;
+  padding: 20px;
+  background: #d9ffd9;
+  border-radius: 12px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  text-align: left;
+}
+
+.food-details h2 {
+  color: #065d06;
+}
+
+
+.about-section {
+  padding: 50px 20px;
+  background: #e9ffe7;
+  text-align: center;
+}
+
+.about-container {
+  max-width: 700px;
+  margin: auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.about-title {
+  font-size: 34px;
+  color: #065d06;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.about-text {
+  font-size: 20px;
+  line-height: 1.6;
+  color: #333;
+}
+
+
+
+/* JUICES SECTION */
+.juices-section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.juices-title {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #065d06;
+}
+
+.juices-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.juice-card {
+  width: 250px;
+  background: #e6fff8;
+  border-radius: 12px;
+  padding: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.juice-card:hover {
+  transform: scale(1.05);
+}
+
+.juice-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.juice-details {
+  margin-top: 30px;
+  padding: 20px;
+  background: #d9fff3;
+  border-radius: 12px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  text-align: left;
+}
+
+.juice-details h2 {
+  color: #0a7350;
+}
+
+
+
+.contact-page {
+  padding: 40px 20px;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.contact-form button {
+  padding: 12px;
+  background-color: green;
+  border: none;
+  color: white;
+  font-size: 18px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: darkgreen;
+}
+
+.footer {
+  margin-top: 30px;
+  padding: 10px;
+  font-size: 14px;
+  color: #333;
+}
