@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/nature-cure/static/css/main.12b960d4.css",
+    "main.js": "/nature-cure/static/js/main.cea40886.js",
+    "index.html": "/nature-cure/index.html",
+    "main.12b960d4.css.map": "/nature-cure/static/css/main.12b960d4.css.map",
+    "main.cea40886.js.map": "/nature-cure/static/js/main.cea40886.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.12b960d4.css",
+    "static/js/main.cea40886.js"
+  ]
+}
