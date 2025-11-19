@@ -10,7 +10,7 @@ function Foods() {
     {
       id: 1,
       name: "Sprouts",
-      <img src={`${process.env.PUBLIC_URL}/images/sprouts.jpg`} alt="sprouts" />,
+<img src="/images/sprouts.jpg" alt="sprouts" />,
 
       description: "Rich in protein and great for digestion.",
       nutrients: "Protein 25%, Iron 10%, Fiber 20%",
