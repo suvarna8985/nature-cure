@@ -1,8 +1,6 @@
 import { useState } from "react";
 import FoodDetails from "./FoodDetails";
 
-
-
 function Foods() {
   const [selectedFood, setSelectedFood] = useState(null);
 
@@ -10,8 +8,7 @@ function Foods() {
     {
       id: 1,
       name: "Sprouts",
-<img src="/images/sprouts.jpg" alt="sprouts" />,
-
+      image: process.env.PUBLIC_URL + "/images/sprouts.jpg",
       description: "Rich in protein and great for digestion.",
       nutrients: "Protein 25%, Iron 10%, Fiber 20%",
       benefits: "Improves digestion, boosts immunity.",
@@ -19,20 +16,19 @@ function Foods() {
       duration: "Daily for 3 weeks reduces anemia.",
     },
     {
-  id: 2,
-  name: "Nuts",
-  <img src="/images/nuts.jpg" alt="Nuts" />,
-  description: "Healthy fats and energy booster.",
-  nutrients: "Omega-3, Vitamin E, Magnesium",
-  benefits: "Improves brain health, strengthens bones.",
-  bestTime: "Evening or morning snack.",
-  duration: "Handful daily for 1 month boosts memory.",
-},
-
+      id: 2,
+      name: "Nuts",
+      image: process.env.PUBLIC_URL + "/images/nuts.jpg",
+      description: "Healthy fats and energy booster.",
+      nutrients: "Omega-3, Vitamin E, Magnesium",
+      benefits: "Improves brain health, strengthens bones.",
+      bestTime: "Evening or morning snack.",
+      duration: "Handful daily for 1 month boosts memory.",
+    },
     {
       id: 3,
       name: "Seeds",
-      <img src="/images/seeds.jpg" alt="Seeds" />,
+      image: process.env.PUBLIC_URL + "/images/seeds.jpg",
       description: "High in fiber and antioxidants.",
       nutrients: "Fiber 30%, Zinc 15%, Iron 12%",
       benefits: "Reduces inflammation, improves heart health.",
