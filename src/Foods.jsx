@@ -21,7 +21,7 @@ function Foods() {
     {
   id: 2,
   name: "Nuts",
-  image: "/images/nuts.jpg", 
+  <img src="/images/nuts.jpg" alt="Nuts" />,
   description: "Healthy fats and energy booster.",
   nutrients: "Omega-3, Vitamin E, Magnesium",
   benefits: "Improves brain health, strengthens bones.",
@@ -32,8 +32,7 @@ function Foods() {
     {
       id: 3,
       name: "Seeds",
-      image:
-        "/images/seeds.jpg",
+      <img src="/images/seeds.jpg" alt="Seeds" />,
       description: "High in fiber and antioxidants.",
       nutrients: "Fiber 30%, Zinc 15%, Iron 12%",
       benefits: "Reduces inflammation, improves heart health.",
